@@ -1,0 +1,33 @@
+{{Form::open(array('url'=>'','method'=>'post'))}}
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="form-group col-md-4">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" title="Name" name="naam">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="form-group col-md-4">
+        <label for="price">Email:</label>
+        <input type="text" class="form-control" title="Email" name="email">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="form-group col-md-4">
+        <label for="price">Password:</label>
+        <input type="password" class="form-control" title="Password" name="wachtwoord1">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="form-group col-md-4">
+        <label for="price">Confirm Password:</label>
+        <input type="password" class="form-control"title="Password" name="wachtwoord2">
+    </div>
+</div>
+<div class="pull-right">
+    <button type="submit" class="btn btn-success" style="margin-left:100px">Add user</button>
+</div>
+{{Form::close()}}
